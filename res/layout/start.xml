@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+     <Button
+            android:id="@+id/help"
+            android:layout_width="56dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/button_help_new_2x" />
+
+        <Button
+            android:id="@+id/Logo"
+            android:layout_width="234dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/logo_big_2x" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="177dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_start_2x" />
+        
+        <Button
+            android:id="@+id/rank"
+            android:layout_width="177dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rank" />
+        
+        <Button
+            android:id="@+id/share"
+            android:layout_width="177dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_share_2x" />
+
+</LinearLayout>
